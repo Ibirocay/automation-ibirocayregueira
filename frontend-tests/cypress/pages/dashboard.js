@@ -16,6 +16,10 @@ function performLogout(cy, confirmContent){
 
 }
 
+/*function navigateToRoomPage(cy){
+    cy.get(':nth-child(1) > .btn').click()
+}*/
+
 // exports
 module.exports = {
     checkDashboardTitle,

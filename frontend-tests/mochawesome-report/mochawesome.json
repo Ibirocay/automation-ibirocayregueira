@@ -1,0 +1,176 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-11-04T10:40:41.067Z",
+    "end": "2021-11-04T10:41:12.299Z",
+    "duration": 31232,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "e9776a68-7100-45fa-a81b-31629bf9d43c",
+      "title": "",
+      "fullFile": "cypress/integration/page-objects.spec.js",
+      "file": "cypress/integration/page-objects.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "c2b71841-63ce-4fea-a724-f23a3cb364b8",
+          "title": "Test suite",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Check rooms",
+              "fullTitle": "Test suite Check rooms",
+              "timedOut": null,
+              "duration": 3655,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "roomsFuncs.checkRoomsHeader(cy);",
+              "err": {},
+              "uuid": "7a76daa1-4ee2-4c04-9053-4f3f0e6da9a9",
+              "parentUUID": "c2b71841-63ce-4fea-a724-f23a3cb364b8",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Delete client",
+              "fullTitle": "Test suite Delete client",
+              "timedOut": null,
+              "duration": 6778,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "clientsFuncs.deleteClient(cy);",
+              "err": {},
+              "uuid": "e513d96d-9015-444a-9772-64db4cefab33",
+              "parentUUID": "c2b71841-63ce-4fea-a724-f23a3cb364b8",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Add client",
+              "fullTitle": "Test suite Add client",
+              "timedOut": null,
+              "duration": 5266,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "clientsFuncs.createClient(cy, targets.client, targets.email, targets.phone);",
+              "err": {},
+              "uuid": "1d6c2099-2949-4f66-8f7b-da4eb0b948cd",
+              "parentUUID": "c2b71841-63ce-4fea-a724-f23a3cb364b8",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Change bill payment status",
+              "fullTitle": "Test suite Change bill payment status",
+              "timedOut": null,
+              "duration": 5361,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "billsFuncs.billPaid(cy);\nbillsFuncs.billNotPaid(cy);",
+              "err": {},
+              "uuid": "144dc0ed-5bfa-4f1e-b936-58091c269019",
+              "parentUUID": "c2b71841-63ce-4fea-a724-f23a3cb364b8",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Update a room category",
+              "fullTitle": "Test suite Update a room category",
+              "timedOut": null,
+              "duration": 5186,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "roomsFuncs.updateCategory(cy);",
+              "err": {},
+              "uuid": "672f2645-f176-4b87-b2c6-669383f1376f",
+              "parentUUID": "c2b71841-63ce-4fea-a724-f23a3cb364b8",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "7a76daa1-4ee2-4c04-9053-4f3f0e6da9a9",
+            "e513d96d-9015-444a-9772-64db4cefab33",
+            "1d6c2099-2949-4f66-8f7b-da4eb0b948cd",
+            "144dc0ed-5bfa-4f1e-b936-58091c269019",
+            "672f2645-f176-4b87-b2c6-669383f1376f"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 26246,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.3.1"
+    },
+    "marge": {
+      "options": null,
+      "version": "5.2.0"
+    }
+  }
+}
